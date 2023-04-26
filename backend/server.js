@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
   //res.status(200).json({ message: "Welcome to the Support Desk API" });
 });
 
-//Routes
+//Routesgfrdfg
 app.use("/api/users", require("./routes/userRoutes"));
 app.use("/api/tickets", require("./routes/ticketRoutes"));
 
